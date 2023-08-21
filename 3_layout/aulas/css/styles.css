@@ -2,6 +2,27 @@ h1 {
     color: red;
 }
 
+/*SM*/
+@media(min-width: 576px){
+    h1{
+        color: blue;
+    }
+}
+
+/*MD*/
+@media(min-width: 768px){
+    h1{
+        color: green;
+    }
+}
+
+/*LG*/
+@media(min-width: 992px){
+    h1{
+        color: purple;
+    }
+}
+
 .btn-primary {
     background-color: red;
 }
