@@ -71,7 +71,8 @@ h1 {
 .col-2,
 .col-1,
 .col-11,
-.col-6{
+.col-6,
+.col-3{
     border: 2px dashed red;
     height: 100%;
     margin: 0;
@@ -91,6 +92,19 @@ h1 {
     height: 100%;
 }
 
-.col-6{
+.vertical .col-6,
+.vertical .col-3,
+.vertical .col-4,
+.vertical .col-md-3 {
     height: 50px;
+}
+
+/* Offset */
+#offset{
+    height: auto;
+}
+
+#offset .col-md-3 {
+    height: 50px;
+    border: 2px solid red;
 }
